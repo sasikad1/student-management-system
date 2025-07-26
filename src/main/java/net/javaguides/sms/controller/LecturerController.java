@@ -20,7 +20,9 @@ public class LecturerController {
 		super();
 		this.lecturerService = lecturerService;
 	}
-	
+
+
+
 	//handler method to handle list student and return mode and view
 	@GetMapping("/lecturers")
 	public String listLecturers(Model model) {
